@@ -2,10 +2,10 @@ package src;
 
 
     public class Car {
-        String brand;
-        String model;
-        double fuel;
-        float fuelCompsuption;
+        private String brand;
+        private String model;
+        private double fuel;
+        private float fuelCompsuption;
 
         public Car(){
             this.brand="VW";
